@@ -2,8 +2,221 @@
 <html>
     <head>
       <title>A Cup of Cherry Blossom</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body{
+        margin: 0;
+        padding: 0;
+        background-color:#fcd1d7;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      @media screen and (min-width: 721px){
+        div.header{
+          background-color:#c3829e;
+          height:25%;
+          width:100%;
+          text-align: center;
+        }
+
+        h1{
+          padding-top: 2%;
+          width: 100%;
+          height:60%;
+          font-size: 300%;
+          font-family: "Sofia", sans-serif;
+          text-align: center;
+          color: #ffffff;
+        }
+
+        a.about, a.reading{
+          color: #ffffff;
+          padding: 1%;
+          margin: 1%;
+        }
+        a.about:link, a.about:visited, a.reading:link, a.reading:visited{
+          text-decoration: none;
+          background-color: #e9b1cd;
+        }
+        a.about:hover, a.about:active, a.reading:hover, a.reading:active{
+          text-decoration: underline;
+          background-color: #562135;
+        }
+
+        div.bod{
+          width: 80%;
+          margin-left: 10%;
+          margin-top: 5%;
+          background-color: #ffffff;
+        }
+
+        div.about, div.reading{
+          padding-top: 1%;
+        }
+
+        h2, h3{
+          text-align: center;
+          width: 100%;
+          height:30%;
+          font-size: 200%;
+          font-family: "Sofia", sans-serif;
+          color: #562135;
+        }
+
+        p.ab_desc, p.read{
+          font-size: 90%;
+          font-family: sans-serif;
+          color: #222222;
+          margin-top: 1%;
+          margin-left: 3%;
+          width: 94%;
+          text-align:justify;
+        }
+
+        p.month{
+          font-size: 150%;
+          font-family: sans-serif;
+          color: #e9b1cd;
+          margin-top: 1%;
+          text-align: center;
+          font-weight: bold;
+        }
+      }
+
+      @media screen and (max-width: 720px){
+        div.header{
+          background-color:#c3829e;
+          height:35%;
+          width:100%;
+          text-align: center;
+        }
+
+        h1{
+          padding-top: 2%;
+          padding-bottom: 5%;
+          width: 100%;
+          height:60%;
+          font-size: 300%;
+          font-family: "Sofia", sans-serif;
+          text-align: center;
+          color: #ffffff;
+        }
+
+        a.about, a.reading{
+          color: #ffffff;
+          width: 50%;
+          padding: 2% 10%;
+          margin-top: 10%;
+        }
+        a.about:link, a.about:visited, a.reading:link, a.reading:visited{
+          text-decoration: none;
+          background-color: #e9b1cd;
+        }
+        a.about:hover, a.about:active, a.reading:hover, a.reading:active{
+          text-decoration: underline;
+          background-color: #562135;
+        }
+
+        div.bod{
+          width: 100%;
+          margin: 0%;
+          padding: 0%;
+          background-color: #ffffff;
+        }
+
+        div.about, div.reading{
+          padding-top: 1%;
+        }
+
+        h2, h3{
+          text-align: center;
+          width: 100%;
+          height:30%;
+          font-size: 150%;
+          font-family: "Sofia", sans-serif;
+          color: #562135;
+        }
+
+        p.ab_desc, p.read{
+          font-size: 90%;
+          font-family: sans-serif;
+          color: #222222;
+          margin-top: 1%;
+          margin-left: 5%;
+          width: 90%;
+          text-align:justify;
+        }
+
+        p.month{
+          font-size: 120%;
+          font-family: sans-serif;
+          color: #e9b1cd;
+          margin-top: 1%;
+          text-align: center;
+          font-weight: bold;
+        }
+      }
+
+    </style>
     </head>
+
     <body>
-      <p>have a cup</p>
+      <div class = "header">
+        <h1>A Cup of Cherry Blossom</h1>
+        <a class = "about" href = "#about">About Us</a>
+        <a class = "reading" href = "#reading">Weekly Reading</a>
+      </div>
+
+      <div class = "bod">
+      <div class = "about">
+        <a name="about">
+        <h2>About Us</h2>
+        <p class = "ab_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+      </div>
+
+
+      <div class = "reading">
+        <div class = "r_heading">
+          <a name="reading">
+          <h3>Weekly Reading (DD/MM/YY - DD/MM/YY)</h3>
+        </div>
+
+        <div class = "r_list">
+          <p class = "month">January</p>
+          <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <p class = "month">February</p>
+          <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <p class = "month">March</p>
+          <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <p class = "month">April</p>
+          <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <p class = "month">May</p>
+          <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <p class = "month">June</p>
+          <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <p class = "month">July</p>
+          <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <p class = "month">August</p>
+          <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <p class = "month">September</p>
+          <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <p class = "month">October</p>
+          <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <p class = "month">November</p>
+          <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <p class = "month">December</p>
+          <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+        </div>
+      </div>
+    </div>
     </body>
 </html>
