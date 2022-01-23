@@ -53,16 +53,22 @@
           color: #ffffff;
         }
 
+        a.month{
+          color:#ffffff;
+          padding: 1%;
+          margin-top: 1%;
+        }
+
         a.about, a.reading{
           color: #ffffff;
           padding: 1%;
           margin: 1%;
         }
-        a.about:link, a.about:visited, a.reading:link, a.reading:visited{
+        a.about:link, a.about:visited, a.reading:link, a.reading:visited, a.month:link, a.month:visited{
           text-decoration: none;
           background-color: #e9b1cd;
         }
-        a.about:hover, a.about:active, a.reading:hover, a.reading:active{
+        a.about:hover, a.about:active, a.reading:hover, a.reading:active, a.month:hover, a.month:active{
           text-decoration: underline;
           background-color: #562135;
         }
@@ -74,8 +80,9 @@
           background-color: #ffffff;
         }
 
-        div.about, div.reading{
+        div.about, div.reading, div.jump{
           padding-top: 1%;
+          text-align:center;
         }
 
         h2, h3{
@@ -127,17 +134,21 @@
           color: #ffffff;
         }
 
+        a.month{
+          color:#ffffff;
+          padding: 0%;
+        }
         a.about, a.reading{
           color: #ffffff;
           width: 50%;
           padding: 2% 10%;
           margin-top: 10%;
         }
-        a.about:link, a.about:visited, a.reading:link, a.reading:visited{
+        a.about:link, a.about:visited, a.reading:link, a.reading:visited, a.month:link, a.month:visited{
           text-decoration: none;
           background-color: #e9b1cd;
         }
-        a.about:hover, a.about:active, a.reading:hover, a.reading:active{
+        a.about:hover, a.about:active, a.reading:hover, a.reading:active, a.month:hover, a.month:active{
           text-decoration: underline;
           background-color: #562135;
         }
@@ -149,8 +160,9 @@
           background-color: #ffffff;
         }
 
-        div.about, div.reading{
+        div.about, div.reading, div.month{
           padding-top: 1%;
+          text-align:center;
         }
 
         h2, h3{
@@ -207,29 +219,56 @@
           <h3>Weekly Reading (DD/MM/YY - DD/MM/YY)</h3>
         </div>
 
+        <div class = "jump" onselectstart = "return false">
+          <a class = "month" href = "#jan">January</a>
+          <a class = "month" href = "#feb">February</a>
+          <a class = "month" href = "#mar">March</a>
+          <a class = "month" href = "#apr">April</a>
+          <a class = "month" href = "#may">May</a>
+          <a class = "month" href = "#jun">June</a>
+          <a class = "month" href = "#jul">July</a>
+          <a class = "month" href = "#aug">August</a>
+          <a class = "month" href = "#sept">September</a>
+          <a class = "month" href = "#oct">October</a>
+          <a class = "month" href = "#nov">November</a>
+          <a class = "month" href = "#dec">December</a>
+        </div>
+
         <div class = "r_list">
+          <a name="jan">
           <p class = "month" onselectstart="return false">January</p>
           <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <a name="feb">
           <p class = "month" onselectstart="return false">February</p>
           <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <a name="mar">
           <p class = "month" onselectstart="return false">March</p>
           <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <a name="apr">
           <p class = "month" onselectstart="return false">April</p>
           <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <a name="may">
           <p class = "month" onselectstart="return false">May</p>
           <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <a name="jun">
           <p class = "month" onselectstart="return false">June</p>
           <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <a name="jul">
           <p class = "month" onselectstart="return false">July</p>
           <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <a name="aug">
           <p class = "month" onselectstart="return false">August</p>
           <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <a name="sept">
           <p class = "month" onselectstart="return false">September</p>
           <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <a name="oct">
           <p class = "month" onselectstart="return false">October</p>
           <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
+          <a name="nov">
           <p class = "month" onselectstart="return false">November</p>
           <p class = "read">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.</p>
+          <a name="dec">
           <p class = "month" onselectstart="return false">December</p>
           <p class ="read"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare vitae justo sed ullamcorper. Quisque imperdiet eget turpis vitae interdum. Nullam tempor, nulla nec suscipit posuere, nisl elit accumsan ipsum, scelerisque gravida ligula dui rutrum eros. Cras faucibus neque vel cursus aliquet. Pellentesque libero odio, viverra sit amet nisl efficitur, mattis pulvinar nunc. Phasellus pharetra porttitor nibh, eget maximus nunc egestas aliquam. Aliquam ante erat, tempor mollis euismod quis, aliquet at massa. Cras maximus lorem id gravida aliquam. Morbi a orci a dui pulvinar facilisis. Morbi egestas neque vel turpis hendrerit interdum. Nullam rhoncus eget leo eget lobortis. Mauris molestie, nisl vel egestas venenatis, nibh purus rhoncus ante, et congue elit mi eu orci. Duis sit amet tincidunt dui, at finibus felis. Nullam fermentum et ex eu accumsan. Praesent commodo sapien in augue tempor egestas. Aenean nec ipsum odio. Nunc finibus justo vitae quam cursus, vitae accumsan est scelerisque. Proin congue leo at ipsum facilisis feugiat. Vestibulum ac arcu vel felis vehicula eleifend. Nunc tristique interdum rhoncus. In a purus a tortor gravida sagittis nec sed sapien. Cras pulvinar neque erat, at vestibulum quam vulputate a. Proin a interdum elit. Sed aliquam auctor malesuada.k</p>
         </div>
