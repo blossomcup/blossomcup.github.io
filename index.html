@@ -18,6 +18,21 @@
         background-color:#fcd1d7;
         height: 100vh;
         width: 100vw;
+        overflow-x: hidden;
+      }
+
+      body::-webkit-scrollbar {
+        width: 12px;               /* width of the entire scrollbar */
+      }
+
+      body::-webkit-scrollbar-track {
+        background: #562135;        /* color of the tracking area */
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: white;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+        border: 3px solid #562135;  /* creates padding around scroll thumb */
       }
 
       @media screen and (min-width: 721px){
@@ -78,6 +93,7 @@
           color: #222222;
           margin-top: 1%;
           margin-left: 3%;
+          padding-bottom: 3%;
           width: 94%;
           text-align:justify;
         }
@@ -152,6 +168,7 @@
           color: #222222;
           margin-top: 1%;
           margin-left: 5%;
+          padding-bottom: 3%;
           width: 90%;
           text-align:justify;
         }
